@@ -6,7 +6,7 @@ const ImagePreview = ({ originalImage, processedImage }) => {
     if (!processedImage || !originalImage) return null;
 
     return (
-        <section className="image-preview-section poppins">
+        <section className="image-preview-section poppins mt-5">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12">

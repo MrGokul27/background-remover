@@ -40,12 +40,12 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-8 d-md-flex justify-content-around align-items-center">
+                            <div className="col-10 d-md-flex justify-content-around align-items-center">
                                 <div className="file-upload-container">
                                     <FileUpload onUpload={handleFileUpload} processedImage={processedImage} />
                                     {loading && <p className="text-center mt-3">Processing...</p>}
                                 </div>
-                                <div className="image-preview-container">
+                                <div className="image-preview-container mt-5">
                                     <ImagePreview originalImage={originalImage} processedImage={processedImage} />
                                 </div>
                             </div>
