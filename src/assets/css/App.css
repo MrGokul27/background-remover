@@ -1,0 +1,30 @@
+.section-heading-underline {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.section-heading-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2F0A2D;
+  animation: underlineAnimation 5s ease-in-out infinite;
+}
+
+@keyframes underlineAnimation {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+  }
+}
