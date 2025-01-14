@@ -16,10 +16,11 @@ const ImagePreview = ({ originalImage, processedImage }) => {
                                 rightImage={processedImage}
                                 sliderLineWidth={2}
                                 handleSize={40}
+                                sliderLineColor={"#DEC3CC"}
                                 className="responsive-comparison"
                             />
                         </div>
-                        <a href={processedImage} download="processed-image.png" className="btn download-btn mt-2">
+                        <a href={processedImage} download="processed-image.png" className="btn download-btn mt-5">
                             Download Image
                         </a>
                     </div>
