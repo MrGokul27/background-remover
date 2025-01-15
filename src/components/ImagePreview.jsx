@@ -6,7 +6,7 @@ const ImagePreview = ({ originalImage, processedImage }) => {
     if (!processedImage || !originalImage) return null;
 
     return (
-        <section className="image-preview-section poppins mt-5">
+        <section className="image-preview-section poppins mt-xl-5 mt-3">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12">
@@ -20,7 +20,7 @@ const ImagePreview = ({ originalImage, processedImage }) => {
                                 className="responsive-comparison"
                             />
                         </div>
-                        <a href={processedImage} download="processed-image.png" className="btn download-btn mt-5">
+                        <a href={processedImage} download="processed-image.png" className="btn download-btn mt-xl-5 mt-3">
                             Download Image
                         </a>
                     </div>

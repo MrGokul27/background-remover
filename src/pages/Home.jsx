@@ -25,9 +25,9 @@ const Home = () => {
 
     return (
         <section className="home-section p-3 poppins">
-            <div className="container-fluid py-md-5 py-3">
+            <div className="container-fluid py-lg-5 py-3">
                 <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-lg-8 col-md-10">
                         <div className="row">
                             <div className="col-12 d-flex">
                                 <div className="">
@@ -40,7 +40,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-10 d-md-flex justify-content-around align-items-center">
+                            <div className="col-md-10 d-md-flex justify-content-around align-items-center">
                                 <div className="file-upload-container">
                                     <FileUpload onUpload={handleFileUpload} processedImage={processedImage} />
                                     {loading && <p className="text-center mt-3">Processing...</p>}

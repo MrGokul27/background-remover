@@ -21,16 +21,7 @@ const FileUpload = ({ onUpload, processedImage }) => {
                         {!processedImage && (
                             <div
                                 {...getRootProps()}
-                                style={{
-                                    border: "2px dashed #2F0A2D",
-                                    padding: "50px",
-                                    marginTop: "50px",
-                                    textAlign: "center",
-                                    cursor: "pointer",
-                                    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.4)",
-                                    borderRadius: "10px",
-                                }}
-
+                                className="upload-input"
                             >
                                 <input {...getInputProps()} />
                                 <p className="upload-text mb-0">
@@ -40,7 +31,7 @@ const FileUpload = ({ onUpload, processedImage }) => {
                         )}
                         {preview && (
                             <div>
-                                <div className="image-file-upload mt-5">
+                                <div className="image-file-upload mt-xl-5">
                                     <img
                                         src={preview}
                                         alt="Preview"

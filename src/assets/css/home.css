@@ -94,3 +94,107 @@
 .file-upload-section .upload-text {
     color: #2F0A2D;
 }
+
+.file-upload-section .upload-input {
+    border: 2px dashed #2F0A2D;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .home-section .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-section .main-heading {
+        font-size: 38px;
+    }
+
+    .file-upload-section .upload-input {
+        padding: 30px;
+        margin-top: 0px;
+    }
+
+    .file-upload-section .upload-text {
+        font-size: 14px;
+    }
+
+    .image-comparison,
+    .image-file-upload {
+        max-width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .home-section .logo-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .home-section .main-heading {
+        font-size: 32px;
+    }
+
+    .file-upload-section .upload-input {
+        padding: 30px;
+        margin-top: 0px;
+    }
+
+    .file-upload-section .upload-text {
+        font-size: 14px;
+    }
+
+    .image-comparison,
+    .image-file-upload {
+        max-width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home-section {
+        height: 100vh;
+        background-image: url("../images//comparing-image.jpg");
+        background-position: 0 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .home-section .image-preview-container {
+        height: 30vh !important;
+    }
+
+    .home-section .logo-image {
+        width: 30px;
+        height: 30px;
+    }
+
+    .home-section .main-heading {
+        font-size: 26px;
+    }
+
+    .home-section .main-content {
+        font-size: 18px;
+    }
+
+    .file-upload-section .upload-input {
+        padding: 30px;
+        margin-top: 50px;
+    }
+
+    .file-upload-section .upload-text {
+        font-size: 14px;
+    }
+
+    .image-comparison,
+    .image-file-upload {
+        max-width: 150px;
+        height: 150px;
+    }
+}
