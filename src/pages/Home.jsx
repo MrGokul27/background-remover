@@ -34,7 +34,7 @@ const Home = () => {
                                     <img src={logoImage} alt="" className="img-fluid logo-image me-3" />
                                 </div>
                                 <div className="">
-                                    <h2 className="main-heading">Remove Image <span className="section-heading-underline">backgrounds</span></h2>
+                                    <h2 className="main-heading">Remove Image <span className="section-heading-underline">background</span></h2>
                                     <p className="main-content">100% automatically with one click</p>
                                 </div>
                             </div>
